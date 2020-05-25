@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="328dp"
+    android:layout_height="381dp"
+    tools:context=".fragments.SinglePlayerFragment"
+    android:background="@mipmap/fondomenu">
+
+    <ImageButton
+        android:id="@+id/jugarBtn"
+        android:layout_width="190dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/jugar" />
+
+    <ImageButton
+        android:id="@+id/opcionesBton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/opciones" />
+
+</FrameLayout>
